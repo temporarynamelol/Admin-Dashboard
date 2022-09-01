@@ -15,6 +15,11 @@ body {
     min-height: 100vh;
 }
 
+.icon {
+    height: 40px;
+    padding-right: 10px;
+}
+
 .header {
     grid-column: 2 / 3;
     grid-row-start: 1;
@@ -26,11 +31,19 @@ body {
     background-color: blue;
 }
 
+.sidebar-header-container {
+    margin: clamp(30px, 4vh, 50px) clamp(5px, 6vw, 40px) 0px clamp(5px, 6vw, 40px);
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
 .dashboard-header { 
     color: azure;
     font-size: clamp(20px, 2.6vw, 2.2rem);
-    margin: clamp(30px, 4vh, 50px) clamp(5px, 6vw, 40px) 0px clamp(5px, 6vw, 40px);
+    align-self: center;
 }
+
 
 .sidebar > ul {
     list-style: none;
