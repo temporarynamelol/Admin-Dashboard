@@ -1,3 +1,7 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -14,6 +18,20 @@
     grid-column-start: 1;
     grid-row: 1 / -1;
     background-color: blue;
+}
+
+.dashboard-header { 
+    color: azure;
+    font-size: 2.2rem;
+    margin-left: 40px;
+}
+
+.sidebar > ul {
+    list-style: none;
+    color: azure;
+    font-size: 1.8rem;
+    padding-left: 0px;
+    margin-left: 40px;
 }
 
 .main-content {
