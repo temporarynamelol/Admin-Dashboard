@@ -23,7 +23,7 @@ body {
 .dashboard-header { 
     color: azure;
     font-size: 2.2rem;
-    margin-left: 40px;
+    margin: 0px 2rem 0px 2rem;
 }
 
 .sidebar > ul {
@@ -31,7 +31,7 @@ body {
     color: azure;
     font-size: 1.8rem;
     padding-left: 0px;
-    margin-left: 40px;
+    margin: 0px 2rem 0px 2rem;
 }
 
 .main-content {
