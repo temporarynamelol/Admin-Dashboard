@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
 body {
     padding: 0px;
     margin: 0px;
+    font-family: "Roboto-regular";
 }
 .container {
     display: grid;
