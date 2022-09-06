@@ -74,3 +74,16 @@ body {
 .main-content {
     background-color: lightslategray;
 }
+
+/*sidebar ends*/
+/* header  start*/
+
+.profile-image img {
+    height: 5vh;
+}
+.profile-image {
+    height: 5vh;
+    width: 5vh;
+    border: 2px solid black;
+    border-radius: 50%;
+}
