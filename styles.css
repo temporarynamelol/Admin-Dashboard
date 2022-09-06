@@ -87,3 +87,11 @@ body {
     border: 2px solid black;
     border-radius: 50%;
 }
+
+.header button {
+    all: unset;
+}
+
+.header button > img {
+    height: 2.5vh;
+}
