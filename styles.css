@@ -10,7 +10,7 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
     min-height: 100vh;
 }
@@ -28,16 +28,17 @@ body {
 .header {
     grid-column: 2 / 3;
     grid-row-start: 1;
+
 }
 
 .sidebar {
     grid-column-start: 1;
     grid-row: 1 / -1;
-    background-color: blue;
+    background-color: #1992D4;
 }
 
 .sidebar-header-container {
-    margin: clamp(30px, 4vh, 50px) clamp(5px, 6vw, 40px) 0px clamp(5px, 6vw, 40px);
+    margin: clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px) clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px);
 
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -47,19 +48,22 @@ body {
     color: azure;
     font-size: clamp(30px, 2.2vw, 36px); 
     align-self: center;
+    margin: 0;
 }
 
 
-.sidebar-second-container {
+.sidebar-second-container,
+.sidebar-third-container {
+
     color: azure;
     font-size: clamp(20px, 1.8vw, 32px); 
-    margin: 0px clamp(5px, 6vw, 40px);
+    margin: clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px) clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px);
 
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
 
-.sidebar-second-container > p {
+.nav-link {
     margin: 0;
     align-self: center;
 }
