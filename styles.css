@@ -15,9 +15,14 @@ body {
     min-height: 100vh;
 }
 
+#icon {
+    height: 50px;
+}
+
 .icon {
     height: 40px;
     padding-right: 10px;
+    align-self: center;
 }
 
 .header {
@@ -40,17 +45,23 @@ body {
 
 .dashboard-header { 
     color: azure;
-    font-size: clamp(20px, 2.6vw, 2.2rem);
+    font-size: clamp(30px, 2.2vw, 36px); 
     align-self: center;
 }
 
 
-.sidebar > ul {
-    list-style: none;
+.sidebar-second-container {
     color: azure;
-    font-size: clamp(20px, 2.4vw, 2rem);
-    padding: 0px;
-    margin: clamp(30px, 6vh, 50px) clamp(5px, 6vw, 40px);
+    font-size: clamp(20px, 1.8vw, 32px); 
+    margin: 0px clamp(5px, 6vw, 40px);
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar-second-container > p {
+    margin: 0;
+    align-self: center;
 }
 
 .main-content {
