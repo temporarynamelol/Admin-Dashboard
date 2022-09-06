@@ -38,7 +38,7 @@ body {
 }
 
 .sidebar-header-container {
-    margin: clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px) clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px);
+    margin: 3vh 8vw 7vh 2vw;
 
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -57,14 +57,15 @@ body {
 
     color: azure;
     font-size: clamp(20px, 1.8vw, 32px); 
-    margin: clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px) clamp(20px, 3vh, 40px) clamp(5px, 6vw, 40px);
+    margin: 0 8vw 7vh 2vw;
+
 
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
 
 .nav-link {
-    margin: 0;
+    margin: 1vh;
     align-self: center;
 }
 
