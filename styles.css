@@ -186,3 +186,7 @@ body {
     font-family: "Roboto-regular";
     font-weight: bold;
 }
+
+.bottom-row > .right-content > button:last-of-type {
+    margin-right: 0;
+}
