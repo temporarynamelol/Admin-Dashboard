@@ -16,7 +16,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 4.8fr;
+    grid-template-rows: 20vh 80vh;
     min-height: 100vh;
 }
 
@@ -199,13 +199,15 @@ body {
 
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 10vh 65vh;
 }
 
 .main-left {
+    grid-row: 2 / 3;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 22vh 22vh 22vh;
     justify-items: center;
     align-items: center;
 }
