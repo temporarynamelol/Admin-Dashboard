@@ -67,10 +67,6 @@ body {
     align-self: center;
 }
 
-.main-content {
-    background-color: lightslategray;
-}
-
 /*sidebar ends*/
 /* header  start*/
 
@@ -102,6 +98,11 @@ body {
 
     display: grid;
     grid-template-rows: 1fr 1fr;
+
+    box-shadow: -10px 15px 10px -15px #111,
+                10px 15px 10px -15px #111;  
+    z-index: 1;
+    
 }
 
 .top-row {
@@ -189,4 +190,10 @@ body {
 
 .bottom-row > .right-content > button:last-of-type {
     margin-right: 0;
+}
+
+/* header ends */
+/*main content starts*/
+.main-content {
+    background-color: #E2E8F0;
 }
