@@ -113,11 +113,15 @@ body {
     align-items: center;
 }
 
-.left-form {
+.left-content {
     display: flex;
     align-items: center;
     margin: 12px 12px 12px 3vw;
 
+}
+
+.bottom-row {
+    display: flex;
 }
 
 .search-input {
@@ -137,4 +141,17 @@ body {
 #big-profile-image {
     height: 6vh;
     width: 6vh;
+}
+
+.hi-there {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-family: "Roboto-medium";
+}
+
+.user-name-2 {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
