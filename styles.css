@@ -82,7 +82,8 @@ body {
     margin: 14px;
 }
 
-.header button {
+.search-button,
+.alert-button {
     all: unset;
 }
 
@@ -109,7 +110,7 @@ body {
 
 .top-row > .right-content {
     display: flex;
-    margin: 12px 12px 0 auto;
+    margin: 12px 3vw 0 auto;
     align-items: center;
 }
 
@@ -126,7 +127,7 @@ body {
 
 .bottom-row > .right-content {
     display: flex;
-    margin: 0 12px 12px auto;
+    margin: 0 3vw 12px auto;
     align-items: center;
 }
 
@@ -168,5 +169,20 @@ body {
     margin-top: 8px;
     margin-bottom: 20px;
     font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.header-button {
+    all: unset;
+    margin: 0 12px;
+    background-color: #1992D4;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family: "Roboto-regular";
     font-weight: bold;
 }
