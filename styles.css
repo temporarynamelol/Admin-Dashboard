@@ -107,21 +107,34 @@ body {
     display: flex;
 }
 
-.right-content {
+.top-row > .right-content {
     display: flex;
-    margin: 12px 12px 12px auto;
+    margin: 12px 12px 0 auto;
     align-items: center;
 }
 
-.left-content {
+.top-row > .left-content {
     display: flex;
     align-items: center;
-    margin: 12px 12px 12px 3vw;
+    margin: 12px 12px 0 3vw;
 
 }
 
 .bottom-row {
     display: flex;
+}
+
+.bottom-row > .right-content {
+    display: flex;
+    margin: 0 12px 12px auto;
+    align-items: center;
+}
+
+.bottom-row > .left-content {
+    display: flex;
+    align-items: center;
+    margin: 0 12px 12px 3vw;
+
 }
 
 .search-input {
@@ -141,6 +154,7 @@ body {
 #big-profile-image {
     height: 6vh;
     width: 6vh;
+    margin-left: 0;
 }
 
 .hi-there {
