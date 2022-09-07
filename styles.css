@@ -142,8 +142,9 @@ body {
     background-color: lightgray;
     width: 45vw;
     height: 3vh;
-    border-radius: 18px;
+    border-radius: 22px;
     margin-left: 1.5vw;
+    padding: 0.2vw 1vw;
 }
 
 .user-name-1 {
