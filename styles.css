@@ -201,52 +201,56 @@ body {
 /*main content starts*/
 .main-content {
     background-color: #E2E8F0;
+    margin: 30px;
 
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 5vh 70vh 5vh;
-
-    align-items: center;
+    gap: 15px;
+    grid-template-areas: "card card card card card announcement"
+                         "card card card card card trending";
 }
 
 .main-left {
-    grid-row: 2 / 3;
+    grid-area: card;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 22vh 22vh 22vh;
-    justify-items: center;
-    align-items: center;
-}
-
-.main-left:nth-child(even) {
-    justify-self: start;
+    grid-template-columns: repeat(2, minmax(300px, 100%));
+    grid-template-rows: repeat(3, minmax(300px, 100%));
+    position: relative;
 }
 
 .card {
     border: 1px solid black;
-    height: 20vh;
-    width: 26vw;
-    max-width: 500px;
-    margin: 2vw;
+
+
+    margin: 20px;
 }
 
 .left-main-header {
-    margin: 4vh 0 0 2vw;
-    
+    position: absolute;
+    top: -40px;
+    left: 20px;
 }
 
-.main-right {
-    grid-column: 2 / 4;
-    grid-row: 2 / 3;
-    align-self: center;
-
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+.announcements {
+    grid-area: announcement;
+    position: relative;
 }
 
+.announcements-header,
+.trending-header {
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
 .vert-card {
     border: 1px solid black;
-    height: 20vh;
-    width: 12vw;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
 }
+
+.trending {
+    grid-area: trending;
+    position: relative;
+}
+
