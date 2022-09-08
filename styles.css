@@ -190,6 +190,7 @@ body {
     color: azure;
     font-family: "Roboto-regular";
     font-weight: bold;
+    font-size: 1.5vh;
 }
 
 .bottom-row > .right-content > button:last-of-type {
@@ -202,7 +203,7 @@ body {
     background-color: #E2E8F0;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr;
     grid-template-rows: 10vh 65vh;
 }
 
@@ -220,4 +221,6 @@ body {
     border: 1px solid black;
     height: 20vh;
     width: 26vw;
+    max-width: 500px;
+    margin: 2vw;
 }
