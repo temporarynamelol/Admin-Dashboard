@@ -204,7 +204,9 @@ body {
 
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
-    grid-template-rows: 10vh 65vh;
+    grid-template-rows: 5vh 70vh 5vh;
+
+    align-items: center;
 }
 
 .main-left {
@@ -223,4 +225,9 @@ body {
     width: 26vw;
     max-width: 500px;
     margin: 2vw;
+}
+
+.left-main-header {
+    margin: 4vh 0 0 2.7vw;
+    
 }
