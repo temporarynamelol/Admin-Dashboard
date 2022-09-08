@@ -203,7 +203,7 @@ body {
     background-color: #E2E8F0;
 
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 5vh 70vh 5vh;
 
     align-items: center;
@@ -219,6 +219,10 @@ body {
     align-items: center;
 }
 
+.main-left:nth-child(even) {
+    justify-self: start;
+}
+
 .card {
     border: 1px solid black;
     height: 20vh;
@@ -228,6 +232,21 @@ body {
 }
 
 .left-main-header {
-    margin: 4vh 0 0 2.7vw;
+    margin: 4vh 0 0 2vw;
     
+}
+
+.main-right {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    align-self: center;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.vert-card {
+    border: 1px solid black;
+    height: 20vh;
+    width: 12vw;
 }
