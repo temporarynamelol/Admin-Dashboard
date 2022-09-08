@@ -14,6 +14,7 @@ body {
     margin: 0px;
     font-family: "Roboto-regular";
     overflow-x: hidden;
+    background-color: #E2E8F0;
 
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -97,9 +98,10 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     height: 20vh;
+    background-color: white;
+
     display: grid;
     grid-template-rows: 1fr 1fr;
-
     box-shadow: -10px 15px 10px -15px rgb(95, 93, 93),
                 10px 15px 10px -15px rgb(95, 93, 93);  
     z-index: 1;
@@ -200,7 +202,7 @@ body {
 /* header ends */
 /*main content starts*/
 .main-content {
-    background-color: #E2E8F0;
+
     margin: 30px;
 
     display: grid;
@@ -218,17 +220,19 @@ body {
     position: relative;
 }
 
-.card {
-    border: 1px solid black;
-
-
+.card,
+.vert-card {
+    border-radius: 24px;
+    background-color: white;
     margin: 20px;
 }
 
-.left-main-header {
+.left-main-header,
+.announcements-header,
+.trending-header {
     position: absolute;
     top: -40px;
-    left: 20px;
+    left: 26px;
 }
 
 .announcements {
@@ -236,17 +240,9 @@ body {
     position: relative;
 }
 
-.announcements-header,
-.trending-header {
-    position: absolute;
-    top: -40px;
-    left: 20px;
-}
 .vert-card {
-    border: 1px solid black;
     height: 400px;
     width: 300px;
-    margin: 20px;
 }
 
 .trending {
