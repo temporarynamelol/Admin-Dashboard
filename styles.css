@@ -18,7 +18,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 20vh 80vh;
+    grid-template-rows: 20% 80%;
 }
 
 
@@ -203,7 +203,7 @@ body {
 /*main content starts*/
 .main-content {
 
-    margin: 30px;
+    margin: 2vh 3vw 5vh 3vw;
 
     display: grid;
     gap: 15px;
@@ -222,9 +222,20 @@ body {
 
 .card,
 .vert-card {
-    border-radius: 24px;
+    border-radius: 16px;
     background-color: white;
     margin: 20px;
+
+    display: grid;
+    overflow: hidden;
+}
+
+.card {
+    grid-template-columns: 0.8rem 1fr;
+}
+
+.color-stripe {
+    background-color: yellow;
 }
 
 .left-main-header,
