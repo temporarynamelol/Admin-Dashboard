@@ -231,11 +231,22 @@ body {
 }
 
 .card {
-    grid-template-columns: 0.8rem 1fr;
+    grid-template-columns: 0.6vw 1fr;
+    grid-template-rows: 1fr 4.5vh;
+}
+
+.card-content {
+    margin: 1vw;
+}
+
+.card-content p {
+    margin-bottom: 3px;
 }
 
 .color-stripe {
-    background-color: yellow;
+    background-color: orange;
+    grid-column: 1;
+    grid-row: 1 / -1;
 }
 
 .left-main-header,
@@ -261,3 +272,14 @@ body {
     position: relative;
 }
 
+.card-icons {
+    grid-row: 2;
+    grid-column: 2;
+    
+    justify-self: end;
+}
+
+.card-icons img {
+    width: 1.5vw;
+    margin: 0 1vw;
+}
