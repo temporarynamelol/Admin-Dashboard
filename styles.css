@@ -203,7 +203,7 @@ body {
 /*main content starts*/
 .main-content {
 
-    margin: 2vh 3vw 5vh 3vw;
+    margin: 2vh 3vw 7vh 3vw;
 
     display: grid;
     gap: 15px;
@@ -260,11 +260,30 @@ body {
 .announcements {
     grid-area: announcement;
     position: relative;
+    
 }
 
 .vert-card {
     height: 400px;
     width: 300px;
+
+    padding: 2vh;
+}
+
+
+
+.vert-card h3 {
+    margin-bottom: 0;
+}
+
+.vert-card p {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.vert-card div:nth-child(1),
+.vert-card div:nth-child(2) { 
+    border-bottom: 2px solid rgb(226, 232, 240);
 }
 
 .trending {
