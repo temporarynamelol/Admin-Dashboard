@@ -264,15 +264,16 @@ body {
 }
 
 .vert-card {
-    height: 400px;
     width: 300px;
-
     padding: 2vh;
 }
 
+.announcements > .vert-card > div {
+    padding: 3vh 1vw;
+}
 
 .vert-card h3 {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .vert-card p {
