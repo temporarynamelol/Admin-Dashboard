@@ -271,7 +271,6 @@ body {
 }
 
 
-
 .vert-card h3 {
     margin-bottom: 0;
 }
@@ -281,8 +280,29 @@ body {
     margin-bottom: 0;
 }
 
-.vert-card div:nth-child(1),
-.vert-card div:nth-child(2) { 
+.trending-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-content img{
+    height: 5vh;
+    width: 5vh;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 2vh;
+}
+
+.trending-content {
+    display: flex;
+}
+
+.trending-content h4 {
+    margin-bottom: 9px;
+}
+
+.announcement-1,
+.announcement-2 { 
     border-bottom: 2px solid rgb(226, 232, 240);
 }
 
